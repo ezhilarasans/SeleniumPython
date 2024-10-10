@@ -4,7 +4,6 @@ from pathlib import Path
 import pytest
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 BaseUrl = "https://www.saucedemo.com"
